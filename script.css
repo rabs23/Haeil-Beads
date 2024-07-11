@@ -1,3 +1,4 @@
+/*general styling*/
 *{
     margin: 0;
     padding: 0;
@@ -16,6 +17,7 @@
     margin: 15px 0 20px 0;
   }
 
+  /* header section */
   #header {
     background-color: black;
   }
@@ -71,6 +73,7 @@
     padding-right: 25px;
   }
 
+  /* the section that is like the home page */
 #slogan {
   background-image: url("images/backgrounds.jpeg");
   height: 90vh;
@@ -128,6 +131,7 @@
   border-radius: 20px;
 }
 
+/* products section */
 #products1 {
   text-align: center;
 }
@@ -172,6 +176,7 @@
   font-weight: 700;
 }
 
+/* newsletter section */
 #newsletter {
   display: flex;
   justify-content: space-between;
@@ -223,6 +228,7 @@
   border-bottom-left-radius: 0;
 }
 
+/* footeer section */
 footer {
   display: flex;
   flex-wrap: wrap;
@@ -290,6 +296,7 @@ footer a:hover {
   color: white;
 }
 
+/* pagination (page numbering) */
 #pages {
   text-align: center;
 }
