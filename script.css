@@ -1,4 +1,3 @@
-/*general styling*/
 *{
     margin: 0;
     padding: 0;
@@ -17,7 +16,6 @@
     margin: 15px 0 20px 0;
   }
 
-  /* header section */
   #header {
     background-color: black;
   }
@@ -73,7 +71,6 @@
     padding-right: 25px;
   }
 
-  /* the section that is like the home page */
 #slogan {
   background-image: url("images/backgrounds.jpeg");
   height: 90vh;
@@ -131,7 +128,6 @@
   border-radius: 20px;
 }
 
-/* products section */
 #products1 {
   text-align: center;
 }
@@ -176,7 +172,6 @@
   font-weight: 700;
 }
 
-/* newsletter section */
 #newsletter {
   display: flex;
   justify-content: space-between;
@@ -228,12 +223,11 @@
   border-bottom-left-radius: 0;
 }
 
-/* footeer section */
 footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  background-color: #222;
+  background-color: black;
 }
 
 footer .col {
@@ -296,7 +290,6 @@ footer a:hover {
   color: white;
 }
 
-/* pagination (page numbering) */
 #pages {
   text-align: center;
 }
@@ -313,6 +306,8 @@ footer a:hover {
 #products {
   display: flex;
   margin-top: 20px;
+  align-items: center;
+  
 }
 
 #products .details {
@@ -355,4 +350,119 @@ footer a:hover {
   padding-left: 10px;
   font-size: 16px;
   margin-right: 10px;
+}
+#products .details input:focus {
+  outline: none;
+}
+
+#products .details button {
+  background: darkcyan;
+  color: #ffffff;
+}
+
+#products .details span {
+  line-height: 25px;
+}
+
+#sharp .blog-header {
+  background-image: url(images/logo6.jpeg);
+}
+
+#sharp.about-page {
+  background-image: url(images/about.jpeg);
+}
+
+#about-us {
+  display: flex;
+  align-items: center;
+}
+
+#about-us img {
+  width: 50%;
+  height: auto;
+}
+
+#about-us div {
+  padding: 40px;
+}
+
+#contact-details p {
+  color: black;
+}
+
+#contact-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#contact-details .cont {
+  width: 40%;
+}
+
+#contact-details .cont span,
+#form-details form span {
+  font-size: 12px;
+}
+
+#contact-details .cont h2,
+#form-details form h2 {
+  font-size: 26px;
+  line-height: 35px;
+  padding: 20px 0
+}
+
+#contact-details .cont h3 {
+  font-size: 16px;
+  padding-bottom: 15px;
+}
+
+#contact-details .cont li {
+  list-style: none;
+  display: flex;
+  padding: 10px 0;
+}
+
+#contact-details .cont li i {
+  font-size: 14px;
+  padding-right: 22px;
+}
+
+#contact-details .cont li p {
+  margin: 0;
+  font-size: 14px;
+}
+
+#contact-details .map {
+  width: 55%;
+  height: 400px;
+}
+
+#contact-details .map iframe {
+  width: 100%;
+  height: 100%;
+}
+
+#form-details form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 30px;
+  padding: 80px;
+  border: 1px solid #e1e1e1;
+}
+
+#form-details form input,
+#form-details form textarea {
+  width: 100%;
+  padding: 12px 15px;
+  outline: none;
+  margin-bottom: 20px;
+  border: 1px solid #e1e1e1;
+}
+
+#form-details form button {
+  background-color: darkcyan;
+  color: #ffffff;
 }
